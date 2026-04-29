@@ -170,6 +170,10 @@ export default function Index() {
 
   return (
     <div className="min-h-screen text-white font-golos" style={{ background: "linear-gradient(135deg, #0B1120 0%, #0D1528 100%)" }}>
+      {/* Top banner */}
+      <div className="w-full text-center py-2 px-4 text-xs" style={{ background: "rgba(79,142,247,0.12)", borderBottom: "1px solid rgba(79,142,247,0.2)", color: "#8B9DB8" }}>
+        Сайт сделан в образовательных целях учеником 153 школы — <span className="text-white font-medium">Васильев Савелий</span>
+      </div>
       {/* Hero */}
       <header className="relative overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
